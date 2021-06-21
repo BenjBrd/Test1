@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang ="fr">
-<head>
-    <title>TP2</title>
-    <meta charset="utf-8">
-</head>
+    <head>
+        <title>TP2</title>
+        <meta charset="utf-8">
+    </head>
 
-<body>
+    <body>
+        <?php
+            $age = '18'
+            if $age >18
+            {
+               echo <p>'Salut toi !'</p>
+            }
+            else
+            {
+                echo <p>'Bonjour à vous'</p>
+            }
 
-</body>
+
+            $langue = 'Français'
+            switvh($langue)
+            {
+            case 'Français':
+               echo <p>'Bienvenue !'</p>
+               break
+            case 'Anglais':
+                echo <p>'Welcome !'</p>
+                break
+            case 'Espagnol':
+                echo <p>'Bienvenido !'</p>
+                break
+            case 'Russe':
+                echo <p>'Добро пожаловать !'</p>
+                break
+            default
+                echo <p> 'Erreur' </p>
+            }
+
+
+            $nb_lignes = 20
+
+
+
+        ?>
+    </body>
 </html>
