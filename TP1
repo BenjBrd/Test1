@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang ="fr">
+<head>
+    <title>TP1</title>
+    <meta charset="utf-8">
+</head>
+<body>
+<?php
+echo '<h1>Mes premiers pas en PHP!</h1>';
+echo 'Je m\'appelle PHP et mon nom signifie "PHP Hypertext Preprocessor".<br>';
+$nom = 'Laurent';
+echo 'Bonjour ' . $nom . ' !<br>';
+$age = 31;
+const JOURS_PAR_AN = 365;
+$age_jours = $age * JOURS_PAR_AN;
+echo 'Vous avez ' . $age . ' ans, autrement dit, ' . $age_jours . ' jours.';
+?>
+</body>
+</html>
