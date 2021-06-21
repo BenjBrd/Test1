@@ -39,6 +39,19 @@
 
 
             $nb_lignes = 20
+            while ($nblignes <0)
+            {
+                echo <p>"arcticle :".(int)$nblignes</p>
+                $nblignes = $nblignes-1
+            }
+
+
+              $nb_lignes = 20
+                        while ($nblignes <0)
+                        {
+                            echo <p>"arcticle :".(int)$nblignes</p>
+                            $nblignes = $nblignes-1
+                        }
 
 
 
