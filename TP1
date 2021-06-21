@@ -16,4 +16,4 @@ $age_jours = $age * JOURS_PAR_AN;
 echo 'Vous avez ' . $age . ' ans, autrement dit, ' . $age_jours . ' jours.';
 ?>
 </body>
-</html>
+</html>j
