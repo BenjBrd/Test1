@@ -23,7 +23,7 @@
             {
             case 'Français':
                echo <p>'Bienvenue !'</p>
-               breaklg
+               break
             case 'Anglais':
                 echo <p>'Welcome !'</p>
                 break
